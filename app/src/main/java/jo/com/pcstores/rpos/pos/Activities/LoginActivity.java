@@ -69,7 +69,7 @@ public class LoginActivity extends AppCompatActivity {
     ArrayList<User> Name;
     Switch swKeepLogged;
     Realm realm;
-
+String x="1";
     SharedPreferences sharedPreferences;
 
     @Override
