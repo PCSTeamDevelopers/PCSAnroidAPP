@@ -202,6 +202,7 @@ public class RecItemAdapter extends RecyclerView.Adapter<jo.com.pcstores.rpos.po
             }
         }catch (Exception e){
             e.printStackTrace();
+            Toast.makeText(c, e.getMessage(), Toast.LENGTH_SHORT).show();
         }
     }
 }
