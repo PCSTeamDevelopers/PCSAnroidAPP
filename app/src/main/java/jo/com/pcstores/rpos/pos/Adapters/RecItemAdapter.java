@@ -63,7 +63,7 @@ public class RecItemAdapter extends RecyclerView.Adapter<jo.com.pcstores.rpos.po
         private static final int CAMERA_REQUEST = 1888;
         private static final int SELECT_PICTURE = 1;
         ItemsClass itemObj = new ItemsClass(c);
-String cc="22";
+String cc="25";
         public RecItemAdapter(Context c, ArrayList<Items> item,Fragment frag) {
             this.frag = frag;
             inter = (ItemsInterface) frag;
